@@ -48,7 +48,7 @@ import axios from 'axios';
             procesarVenta: function(){
                 let self = this
 
-                axios.put("https://inventario-api-g2m3-6.herokuapp.com//product/", self.product, {headers: {}})
+                axios.put("https://inventario-api-g2m3-6.herokuapp.com/product/", self.product, {headers: {}})
                     .then((result)=>{
                         alert("Se actualizo correctamente") 
                     })
