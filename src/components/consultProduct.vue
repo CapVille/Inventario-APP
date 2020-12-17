@@ -53,7 +53,7 @@ import axios from 'axios';
             },
             procesarConsulta: function(){
                 let self = this
-                axios.get("http://127.0.0.1:8000/product/"+self.code)
+                axios.get("https://inventario-api-g2m3-6.herokuapp.com//product/"+self.code)
                     .then((result)=>{
                         self.product.name = result.data.name
                         self.product.price = result.data.price

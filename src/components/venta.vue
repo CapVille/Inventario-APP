@@ -47,17 +47,8 @@ import axios from 'axios';
             },
             procesarVenta: function(){
                 let self = this
-                
-                /*axios.get("http://127.0.0.1:8000/product/"+self.product.bar_code)
-                    .then((result)=>{
-                        alert(result.data.stock)
-                    })
-                    .catch((error)=>{
-                        self.hay_datos = false
-                        alert("ERROR: " + error.response.status)
-                    })
-*/
-                axios.put("http://127.0.0.1:8000/product/", self.product, {headers: {}})
+
+                axios.put("https://inventario-api-g2m3-6.herokuapp.com//product/", self.product, {headers: {}})
                     .then((result)=>{
                         alert("Se actualizo correctamente") 
                     })
