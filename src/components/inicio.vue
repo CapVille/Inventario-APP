@@ -29,6 +29,9 @@
             },
             procesarVenta: function(){
                 this.$router.push({name: "venta"})
+            },
+            procesarAgregar: function(){
+                this.$router.push({name: "addProduct"})
             }
         },
     }

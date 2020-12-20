@@ -30,6 +30,11 @@ const router = new vueRouter({
                 name: 'venta',
                 component: venta
             },
+            {
+                path: '/addProduct',
+                name: 'addProduct',
+                component: addProduct
+            },
         ]
     }
 )
