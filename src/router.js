@@ -5,6 +5,7 @@ import App from './App'
 import consultProduct from './components/consultProduct'
 import inicio from './components/inicio'
 import venta from './components/venta'
+import addProduct from './components/addProduct'
 
 const router = new vueRouter({
         mode: 'history',

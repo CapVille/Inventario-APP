@@ -6,7 +6,7 @@
 
 
     <div class="main">
-      <router-view v-on:select-product="procesarConsulta" v-on:select-venta="procesarVenta" v-on:select-addProduct="procesarAgregar"></router-view>
+      <router-view v-on:select-product="procesarConsulta" v-on:select-venta="procesarVenta" v-on:select-agregar="procesarAgregar"></router-view>
     </div>
 
     <div class="footer">
@@ -26,7 +26,8 @@ export default {
       title: "Inicio",
       product: false,
       consulta: true,
-      venta: true
+      venta: true,
+      agregar: true
     }
   },
 

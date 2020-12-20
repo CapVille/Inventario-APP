@@ -1,5 +1,6 @@
 <template>
     <div id="consultProduct">
+        
         <div class="title">
             <h2>Consultar Producto</h2>
         </div>
