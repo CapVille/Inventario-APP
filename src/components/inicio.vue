@@ -7,6 +7,7 @@
         <div class="buttons">
             <button v-on:click="procesarConsulta">Consultar Producto</button>
             <button v-on:click="procesarVenta">Venta</button>
+            <button v-on:click="procesarAgregar">Agregar Producto</button>
             <br>
         </div>
     </div>
